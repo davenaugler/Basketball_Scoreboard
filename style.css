@@ -79,11 +79,11 @@ button:hover {
     background-color: #D90429;
 }
 
-.clear-screen {
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
-}
+/*.clear-screen {*/
+/*    margin-top: 20px;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
 
 #clear-screen {
     padding: 10px;
@@ -104,29 +104,37 @@ button:hover {
     color: #fff;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     .scoreboard {
         flex-direction: row;
         justify-content: space-around;
+        max-width: 800px;
     }
 
     .team {
-        margin: 0 20px;
-        width: auto;
-    }
-
-    .buttons {
-        justify-content: flex-start;
-        width: auto;
-    }
-
-    button {
-        width: auto;
+        margin: 0;
+        width: 30%;
     }
 
     .clear-screen {
         margin-top: 0;
-        width: auto;
-        text-align: left;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .scoreboard {
+        max-width: 1000px;
+    }
+
+    .team {
+        width: 40%;
+    }
+
+    .clear-screen {
+        width: 20%;
     }
 }

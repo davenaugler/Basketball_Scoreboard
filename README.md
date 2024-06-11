@@ -15,4 +15,7 @@
 
 ### Figma design [scoreboard](https://www.figma.com/design/xEJ9d7nzumVgGseziSI4bp/Basketball-Scoreboard-(Copy)?node-id=0-1&t=T3jyZgfcWqcI2G0X-1)
 
+<iframe src="https://basketball-scoreboard-smoky.vercel.app/" width="100%" height="500px" frameborder="0"></iframe>
+
 [Live Demo](https://basketball-scoreboard-smoky.vercel.app/)
+
