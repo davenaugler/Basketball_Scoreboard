@@ -17,6 +17,9 @@ body {
     background-color: #1E1F26;
 }
 
+
+/* ... (previous CSS code remains the same) ... */
+
 .scoreboard {
     display: flex;
     flex-direction: column;
@@ -28,6 +31,78 @@ body {
     width: 90%;
     max-width: 400px;
 }
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #EF233C;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 30%;
+    max-width: 100px;
+}
+
+@media (min-width: 600px) {
+    .scoreboard {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .team {
+        margin: 0 20px;
+        width: auto;
+    }
+
+    .buttons {
+        justify-content: flex-start;
+        width: auto;
+    }
+
+    button {
+        width: auto;
+    }
+}
+
+/* ... (remaining CSS code remains the same) ... */
+
+
+
+
+
+
+
+
+
+/*.scoreboard {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    background-color: #2B2D42;*/
+/*    padding: 20px;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+/*    width: 90%;*/
+/*    max-width: 400px;*/
+/*}*/
 
 /*CLEAR SCREEN*/
 #clear-screen {
@@ -48,12 +123,12 @@ body {
     color: #fff;
 }
 
-.team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-}
+/*.team {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin: 20px 0;*/
+/*}*/
 
 .team-name {
     font-size: 1.5rem;
@@ -70,11 +145,11 @@ body {
     font-family: "CursedTimerFont", Arial, sans-serif;
 }
 
-.buttons {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
+/*.buttons {*/
+/*    display: flex;*/
+/*    gap: 10px;*/
+/*    margin-top: 10px;*/
+/*}*/
 
 button {
     padding: 10px;
@@ -91,14 +166,14 @@ button:hover {
     background-color: #D90429;
 }
 
-@media (min-width: 600px) {
-    .scoreboard {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+/*@media (min-width: 600px) {*/
+/*    .scoreboard {*/
+/*        flex-direction: row;*/
+/*        justify-content: space-around;*/
+/*    }*/
 
-    .team {
-        margin: 0 20px;
-    }
-}
+/*    .team {*/
+/*        margin: 0 20px;*/
+/*    }*/
+/*}*/
 
