@@ -14,3 +14,5 @@
    - Add 2 points
    - Add 3 points
 3. More to come
+
+[Live Demo](https://basketball-scoreboard-smoky.vercel.app/)
